@@ -1,0 +1,162 @@
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a{
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dddddd;
+    color: rgba(0, 0, 0e, 1);
+}
+
+/*Formatação da imagem com legenda*/
+figure.foto-legenda{
+    border: 8px solid white; /*Define borda para o elemento*/
+    box-shadow: 1px 1px 4px black; /*sombra*/
+    position: relative;
+}
+
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+} 
+
+figure.foto-legenda figcaption{
+    position: absolute;
+        top: 0px;
+    background-color: rgba(0,0,0,0.4); /*Canal de trânsparencia*/
+    color: white;
+    width: 100%; /*Faz com que a camada transparente ocupe 100%*/
+    height: 100%;
+    padding: 10px; /*Espaçamento interno*/
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+
+/*Formatação do Menu*/
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 600px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu li:hover{
+    background-color: #606060;
+}
+
+nav#menu a{
+    color: #000;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+/*Formatação da div Interface*/
+div#interface{
+    background-color: #fff;
+    width: 1100px;
+    margin: -20px auto 0 auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+/*Formatação Cabeçalho*/
+
+header#cabecalho img#icone{
+    position: absolute;
+    left: 1060px;
+    top: 70px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg ")no-repeat 0px 80px;
+}
+
+header#cabecalho h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    color:#606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color:#888888;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+section#corpo {
+    display: block;
+    width: 630px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+
+aside#lateral {
+    display: block;
+    width: 420px;
+    float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+aside#lateral h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;*}
+
+aside#lateral h2{
+    background-color: #606060;
+    font-size: 13pt;
+    color: #fff;
+    padding: 5px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px rgbs(0, 0, 0 , 0.2);
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
