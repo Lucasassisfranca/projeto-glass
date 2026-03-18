@@ -24,7 +24,7 @@ Esse projeto foi importante para consolidar a base de **Front-End**, especialmen
 
 ## 🌐 Acesse o projeto
 
-🔗 [Clique aqui para acessar o site](COLOQUE_AQUI_O_LINK_DO_SEU_SITE)
+🔗 [Clique aqui para acessar o site]( https://lucasassisfranca.github.io/projeto-glass/)
 
 ## 🎯 Objetivo
 
